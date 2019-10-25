@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Post Operative Care - Dr. Pinto.ca</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/w3-theme-teal.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head><body>
+
+
+<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left" id="mySidebar">
+
+<div class="w3-container w3-theme-d2">
+  <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large">X</span>
+</div>
+
+<a class="w3-bar-item w3-button" href="Index.html">Home</a>
+<a class="w3-bar-item w3-button" href="About-Us.html">About Us</a>
+<a class="w3-bar-item w3-button" href="Our-Team.html">Our Team</a>
+<a class="w3-bar-item w3-button" href="Treatment-Care.html">Treatment & Care</a>
+<a class="w3-bar-item w3-button" href="Tour.html">Tour</a>
+<a class="w3-bar-item w3-button" href="Gallery.html">Gallery</a>
+<a class="w3-bar-item w3-button" href="Forms.html">Forms</a>
+<a class="w3-bar-item w3-button" href="FAQs.html">FAQ’s</a>
+<a class="w3-bar-item w3-button" href="Feedback-Form.html">Feedback</a>
+<a class="w3-bar-item w3-button" href="Clinic-Hours.html">Clinic Hours</a>
+<a class="w3-bar-item w3-button" href="Contact.html">Contact</a>
+
+
+
+</nav>
+
+
+
+
+<header class="w3-top w3-bar topheader_strip">
+  <button class="w3-bar-item w3-button w3-xxlarge w3-hover-theme" onclick="openSidebar()">&#9776;</button>
+  <h6 class=" w3-display-topmiddle pt_rrr "><img src="images/logo-1.jpg"  alt=""/> <span class="font_size">Dr. Pinto & Associates</span></h6>
+  <h4 class="w3-bar-item w3-display-topright "><i class="fa fa-phone" aria-hidden="true"></i></h4>
+  
+        <div class="w3-container w3-light-grey myposition" style="margin-top:70px; ">
+  <h1 class="titleheding">Post Operative Care <a class="w3mybutton w3-blue" href="Forms.html">Back</a></h1>
+</div>
+  
+  
+  
+  </header>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="w3-container" >
+
+
+
+<ul class=" w3-justify" >
+
+
+
+
+        <li> Fill out your prescription as soon as possible.  </li>
+       <li>  Do not drink alcohol for 24 hours following surgery. </li>
+        <li> You should not drive, or operate heavy machinery or make any important decisions for at least 18 hours following your sedation visit or longer if you are experiencing dizziness. Just plan to rest. </li>
+        <li> To control bleeding, firmly bite on folded moistened gauze for 30 minutes at a time, changing gauze when necessary until bleeding stops. </li>
+       <li>  If swelling occurs, apply a cold compress on jaw over the surgical site on and off for 30 minutes. Repeat throughout first 48 hours. The following day, to relieve discomfort, 
+       apply a hot moist compress on jaw over the surgical site on and off for 30 minutes. </li>
+        <li> Eat soft nutritious foods, such as eggs, custards and soup. Drink warm liquids. </li>
+        <li> DO NOT DRINK THROUGH A STRAW. </li>
+       <li>  Rest and avoid excessive activity. </li>
+       <li>  The following day, gently brush your teeth avoiding surgical sites. </li>
+       <li>  The following day, rinse with warm water and salt 3-4 times daily. Continue with salt-water rinses for two weeks. </li>
+        <li> DO NOT SMOKE. </li>
+
+
+
+
+
+
+</ul>
+  
+  
+
+  
+  
+<div class="w3-panel" >
+  <a class="w3-btn w3-block w3-red w3-center-align w3-round-large" href="pdf/Post-Sedation-Instructions.pdf"  target="_blank">Download PDF <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+</a>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+</div>
+
+  
+
+
+
+
+
+ <a class="" href="request-an-appointment.html">
+<footer class="w3-container w3-bottom topheader_strip w3-margin-top w3-center">
+ <h4>Request an Appointment</h4>
+</footer>
+</a>
+
+
+
+
+<script>
+closeSidebar();
+function openSidebar() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeSidebar() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+
+
+<script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+
+
+</body>
+</html>

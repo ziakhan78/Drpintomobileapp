@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dr. Pinto</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/w3-theme-teal.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+</style>
+
+</head>
+
+<body>
+
+<nav class="w3-sidebar2 w3-bar-block w3-card w3-animate-left" id="mySidebar">
+<div class="w3-container w3-theme-d2">
+  <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large">X</span>
+</div>
+
+
+<a class="w3-bar-item w3-button" href="Index.html">Home</a>
+<a class="w3-bar-item w3-button" href="About-Us.html">About Us</a>
+<a class="w3-bar-item w3-button" href="Our-Team.html">Our Team</a>
+<a class="w3-bar-item w3-button" href="Treatment-Care.html">Treatment & Care</a>
+<a class="w3-bar-item w3-button" href="Tour.html">Tour</a>
+<a class="w3-bar-item w3-button" href="Gallery.html">Gallery</a>
+<a class="w3-bar-item w3-button" href="Forms.html">Forms</a>
+<a class="w3-bar-item w3-button" href="FAQs.html">FAQ’s</a>
+<a class="w3-bar-item w3-button" href="Feedback-Form.html">Feedback</a>
+<a class="w3-bar-item w3-button" href="Clinic-Hours.html">Clinic Hours</a>
+<a class="w3-bar-item w3-button" href="Contact.html">Contact</a>
+
+</nav>
+
+
+<header class="w3-top w3-bar topheader_strip">
+
+<div class="w3-row ">
+  <div class="w3-col s2 w3-center w3-display-left">
+    <button class="w3-bar-item w3-button w3-xxlarge w3-hover-theme" onclick="openSidebar()">&#9776;</button>
+  </div>
+  
+  
+  <div class="w3-col w3-center s8 logo_lmarging">
+   <img src="images/logo-1.png" alt="" class=" w3-responsive" style="width:100%;"/>  
+  </div>
+  
+  
+  <div class="w3-col s2 w3-right w3-center w3-display-right">
+      <a href="tel:+91" target="_blank" title="Phone">          
+          <img src="images/Phone_Icon_clip_art.svg" alt="doctor" style="width:40%;">
+      </a>
+  </div></div>
+  
+  
+  
+
+ </header>
+
+
+<div class="w3-content w3-display-container" style="margin-top:70px">
+
+
+    <div class="w3-content w3-display-container" style="max-width:800px">
+        <img class="mySlides" src="images/slide-01.jpg" style="width:100%">
+        <img class="mySlides" src="images/slide-02.jpg" style="width:100%">
+        <img class="mySlides" src="images/slide-01.jpg" style="width:100%">
+
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+
+        </div>
+
+
+
+    </div>
+
+    <div class="w3-row-padding w3-container ex_margintop w3-cell w3-cell-middle">
+
+        <div><p>At Dr. Pinto & Associates, we offer a wide variety of Dental Treatment, General Dentistry and Specialist Care, in one location.</p></div>
+
+
+
+        <a href="About-Us.html" class="">
+            <div class="w3-col s4 w3-white w3-center w3-padding-12  w3-border">
+                <div class="w3-padding-16d"><img src="images/doctor-stethoscope.svg" alt="stethoscope" class="percentage"><div class="w3-clear"></div>About </div>
+            </div>
+        </a>
+
+
+        <a href="Our-Team.html" class="">
+            <div class="w3-col s4 w3-white w3-center w3-padding-12 w3-padding-16d w3-border">
+                <div class="w3-padding-16d">
+                    <img src="images/doctor.svg" alt="doctor" style="width:60%;">
+                    <div class="w3-clear"></div>
+                    Our Team
+                </div>
+            </div>
+        </a>
+
+
+        <a href="Clinic-Hours.html" class="">
+            <div class="w3-col s4 w3-white w3-center w3-padding-12 w3-padding-16d w3-border">
+
+                <div class="w3-padding-16d"><img src="images/clock.svg" alt="time" style="width:60%;"><div class="w3-clear"></div>Timing</div>
+            </div>
+        </a>
+
+
+        <a href="Treatment-Care.html" class="">
+            <div class="w3-col s4 w3-white w3-center w3-padding-12 w3-padding-16d w3-border">
+                <div class="w3-padding-16d"> <img src="images/dental.svg" style="width:60%;"><div class="w3-clear"></div>Treatment</div>
+            </div>
+        </a>
+
+        <a href="Tour.html" class="">
+
+            <div class="w3-col s4 w3-white w3-center w3-padding-12 w3-padding-16d w3-border">
+                <div class="w3-padding-16d"> <img src="images/b8j6j-zvpjb.svg" style="width:78%;"><div class="w3-clear"></div>Facility</div>
+            </div>
+        </a>
+
+        <a href="FAQs.html" class="">
+
+            <div class="w3-col s4 w3-white w3-center w3-padding-12 w3-padding-16d w3-border">
+                <div class="w3-padding-16d"> <img src="images/FAQs.svg" style="width:92%;"><div class="w3-clear"></div>FAQ's</div>
+            </div>
+
+
+        </a>
+    </div>    
+
+    <a class="request-an-appointment.html" href="request-an-appointment.html">
+        <footer class="w3-container w3-bottom topheader_strip w3-margin-top w3-center">
+            <h4>Request an Appointment</h4>
+        </footer>
+    </a>
+
+    <script>
+        closeSidebar();
+        function openSidebar() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function closeSidebar() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-white", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " w3-white";
+        }
+    </script>
+
+
+</div>
+
+
+</body>
+</html>
+

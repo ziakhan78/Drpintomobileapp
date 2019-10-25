@@ -1,0 +1,29 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dr. Pinto.ca</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/w3pro.css">
+    <link rel="stylesheet" href="css/w3-theme-teal.css">
+    <script src="scripts/angular.min.js"></script>
+</head>
+
+<body ng-app="myApp" ng-controller="myCtrl">
+
+    <div class="body">
+        <div class="w3-container">
+            <div class="w3-display-middle"><img class="w3-responsive responsive" src="images/logo.png" alt="" /></div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var app = angular.module('myApp', []);
+        app.controller('myCtrl', function ($scope, $timeout, $location) {
+            $timeout(function () {
+                window.location.href = "Index.html";
+            }, 3000);
+        });
+    </script>
+</body>
+</html>
